@@ -61,7 +61,7 @@ sudo apt-get install elasticsearch
 sudo nano /etc/elasticsearch/elasticsearch.yml
 
 #Menyesuaikan opsi JVM pada bagian heap size.
-sudo nano /etc/elasticsearch/jvm.optionsa
+sudo nano /etc/elasticsearch/jvm.options
 
 #Mengatur batasan sistem untuk Elasticsearch
 sudo nano /etc/security/limits.conf
