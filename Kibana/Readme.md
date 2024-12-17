@@ -55,5 +55,6 @@ http://localhost:5601
 ```
 
 #### 7. Modifikasi dashboard sesuai kebutuhan anda
-*contoh: *
+*contoh:*
+
 <img width="713" alt="ASSRES" src="https://github.com/user-attachments/assets/71e12d4d-a886-4d2e-983d-b0f744a40f16" />
