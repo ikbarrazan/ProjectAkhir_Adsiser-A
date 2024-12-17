@@ -1,0 +1,25 @@
+# /etc/kibana/kibana.yml
+
+# Server settings
+server.port: 5601
+server.host: "0.0.0.0"  # Mengizinkan akses dari semua IP
+
+# Elasticsearch connection
+elasticsearch.hosts: ["http://YOUR_ELASTICSEARCH_IP:9200"] # Ubah IP dengan IP Elasticsearch anda
+elasticsearch.username: "kibana_system"  # Jika menggunakan authentication
+elasticsearch.password: "your_password"   # Jika menggunakan authentication
+
+# Kibana server name
+server.name: "kibana-dashboard"
+
+# Logging settings
+logging.dest: /var/log/kibana/kibana.log
+logging.events: {enabled: true}
+
+# Set the default route to the Kibana home page
+server.defaultRoute: "/app/home"
+
+# Security settings (optional, if using SSL)
+# server.ssl.enabled: true
+# server.ssl.certificate: /path/to/your/cert.pem
+# server.ssl.key: /path/to/your/key.pem
