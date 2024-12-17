@@ -1,0 +1,1 @@
+Baca untuk perintah ElasticSeach
