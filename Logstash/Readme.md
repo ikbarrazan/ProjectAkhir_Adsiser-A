@@ -64,7 +64,12 @@ sudo systemctl start logstash
 sudo systemctl status logstash
 ```
 
-#### 9. Cek apakah pipeline logstash benar-benar sudah mengambil data
+#### 9. Cek apakah pipeline logstash benar-benar sudah mengambil data <br>
 ```
 sudo /usr/share/logstash/bin/logstash -f /etc/logstash/conf.d/logstash-pipeline.conf
+```
+
+#### 10. Jalankan perintah untuk mengecek apakah data berhasil masuk ke Elasticsearch
+```
+curl -X GET "http://54.236.122.226:9200/raydium/_search?pretty"
 ```
